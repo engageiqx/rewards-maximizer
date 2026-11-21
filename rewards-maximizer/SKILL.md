@@ -9,6 +9,19 @@ The person sends a product (name, link, or screenshot) or just a store/brand nam
 
 They send this and walk away. Do the full research from the start — every layer below, every time. Coming back with "I didn't check X" is the worst failure.
 
+## Speed: answer in about one minute
+
+A slow answer is also a failure. Cover every layer, but fast:
+
+- TWO SEARCH ROUNDS, MAXIMUM. Round 1: send every search at once, all in the same turn, never one after another — base price at the major stores, current sales and codes, cashback rates, gift card rates, card offers, upcoming sales, and price-match and price-drop policies. Round 2, only if needed: one more batch, all at once, to fill gaps for the 2 stores still in the running. Then do the math and answer. Never a third round.
+- NARROW AFTER ROUND 1. Keep only the 2 stores with the best likely net price that have the exact item in stock. Drop the rest.
+- SKIP WHAT CAN'T WIN. If the math shows a layer can't beat the current best path, don't search for that layer.
+- FEW, WIDE SEARCHES. One search should cover several things (e.g. "[store] [product] price in stock", "[store] [category] cash back", "[store] Amex Offer Chase Offer"). Never one search per cashback site or one search per card.
+- Use standard search mode. Use extended mode only for one specific gap in round 2.
+- Read the saved wallet once. Don't open other memory files.
+- If something can't be confirmed in the two rounds, leave that layer out (see Hard rules) instead of searching more.
+- No status messages between searches. The first thing they see is the answer.
+
 ## First-time setup (once)
 
 Before the first plan, look for their saved wallet (Claude's memory, or a file named `my-wallet.md` in the working folder). If there is none, ask these three questions in one short message, then save the answers so you never ask again:
@@ -33,14 +46,14 @@ If they later say they got or closed a card, or tell you about a card offer they
 
 ## The stack — research every layer
 
-Work through all of these for each serious store candidate (usually the top 3–4 by base price).
+Cover all of these inside the two search rounds (see Speed). Round 1 covers the top 3–4 stores by base price; round 2 covers only the 2 still in the running.
 
 1. **Base price.** Search the exact product across major US retailers: Amazon, Walmart, Target, Best Buy, Costco/Sam's, the brand's own site, and category specialists (e.g. B&H, Home Depot, Chewy, Sephora/Ulta). Note shipping and whether it's sold by the retailer vs a third-party seller.
 
 2. **Promo codes.** Search for current codes for each candidate store and the brand. Prefer codes from the retailer itself, the brand's email/SMS signup offer, or codes listed on the cashback portal. Label each as "confirmed recent" or "unconfirmed" — codes can't be tested without opening pages, so never present an unconfirmed code as a sure thing, and always give a fallback.
    Also check: first-order / email signup discounts, app-only discounts, student/military, bundle deals, Target Circle / Best Buy / Walmart+ member pricing, trade-in credits.
 
-3. **Cashback portal (pick the single best one).** These named sites are a STARTING list, not the whole search. Search current rates for that store on: Rakuten, PayPal Honey, TopCashback, BeFrugal, Capital One Shopping, RetailMeNot, Swagbucks, Mr. Rebates, Extrabux, RebatesMe, ShopBack, Kudos, Active Junky, Benjamin, and any bank shopping portals. Then ALSO search broadly ("[store] cash back", "[store] cashback rate") and check comparison sites (Cashback Monitor, Cashbackholic, Savewise) to catch any site not on this list. Whichever pays the most wins, even if they haven't heard of it. Also check Honey and Capital One Shopping for auto-applied codes. Only one portal can track an order (last click wins), so pick the highest and tell them to turn off other shopping extensions (Honey, Capital One Shopping) before clicking through so they don't steal the tracking.
+3. **Cashback portal (pick the single best one).** These named sites are a STARTING list, not the whole search. Use about 2 searches per store, not one per site: "[store] [category] cash back" and "cashback monitor [store]". From those results, compare the rates for that store on: Rakuten, PayPal Honey, TopCashback, BeFrugal, Capital One Shopping, RetailMeNot, Swagbucks, Mr. Rebates, Extrabux, RebatesMe, ShopBack, Kudos, Active Junky, Benjamin, and any bank shopping portals. Then ALSO search broadly ("[store] cash back", "[store] cashback rate") and check comparison sites (Cashback Monitor, Cashbackholic, Savewise) to catch any site not on this list. Whichever pays the most wins, even if they haven't heard of it. Also check Honey and Capital One Shopping for auto-applied codes. Only one portal can track an order (last click wins), so pick the highest and tell them to turn off other shopping extensions (Honey, Capital One Shopping) before clicking through so they don't steal the tracking.
    Watch: some stores void portal cashback if you use a code not listed on that portal, and some exclude certain categories (electronics, Apple, gift cards). Note any exclusion you find, especially "no cashback on member-only sales" or "no cashback on sale items", since those can wipe out cashback during big sales like Black Friday.
    REAL RATE FOR THE EXACT ITEM: never use a headline "up to X%" rate. Search the rate for the exact item's category on each candidate site (e.g. "[store] [category] cash back"). Example: Rakuten at Best Buy pays 3% on non-Apple headphones, and ShopBack at Best Buy pays only on house brands, so a Sony item earns 0% there. Use only the category rate in the math.
    NEW-MEMBER BONUSES: when the person hasn't used a site before, count its new-member bonus in the math (e.g. Rakuten $50 after $50 spent within 90 days) and say the minimum spend inside that step.
@@ -87,19 +100,17 @@ When telling them how to buy, put steps in this order so nothing breaks tracking
 A "point" means nothing until it's converted to cents. 2 Marriott points per dollar is worth LESS than 1 Chase point per dollar. Never pick a card by the multiplier; pick it by **return % = points per $ × cents per point**.
 
 For each card in their saved wallet:
-- Search the card's current earn rates for the store's category (including any rotating 5% quarterly category, its activation deadline and its cap).
+- Use the card's known earn rates. Search only for rotating 5% quarterly categories (one search per card that has them, for this quarter's categories, activation deadline and cap).
 - Value the points: if they cash out, use the card's real cash-out value (e.g. Amex points are worth about 0.6¢ as a statement credit, Chase points 1¢ as cash back). If they use points for travel, search the current TPG point valuations.
 
 ### Card-linked offers: YOU check them, every time
 
 Never just tell them to "check your app". You do the checking. For the store, search the offer program of each card in their wallet (Amex Offers, Chase Offers, Capital One Offers, Citi Merchant Offers, Bank of America BankAmeriDeals, U.S. Bank Real-Time Rewards, Wells Fargo Deals, and card boosts). Business cards are not eligible for Capital One Offers.
 
-Card offers are targeted and rarely posted in news articles, so a news search alone will miss them. For EVERY store, run all of these searches:
+Card offers are targeted and rarely posted in news articles, so a news search alone will miss them. For each store still in the running, put these in the same batch as the other searches:
+- "[store] Amex Offer" and "[store] Chase Offer" (Doctor of Credit and Frequent Miler posts show up here)
 - "nextcard [store] card-linked offers" (lists live Chase and Amex offers by card)
-- "[store] Chase Offer" and "[store] Chase Offer 10%"
-- "[store] Amex Offer"
-- "cardpointers [store]" and "offer.love [store]"
-- Doctor of Credit and Frequent Miler for the store name
+- Only for other card brands in their wallet: "[store] [brand] Offer" (e.g. Capital One, Citi)
 
 A missed card offer is the worst miss, because it is often the biggest number in the whole stack (10%+). Because offers are targeted, put the offer in the plan as a step that says where in their card's app to add it, and give the backup step if the offer isn't there.
 
@@ -168,7 +179,7 @@ Rules:
   - GoCashBack: no link; in the sign-up step, tell them to enter referral code VWGNXP
 - AMAZON: whenever the plan sends them to Amazon for any reason, link Amazon with the tag. For Amazon in general, use https://www.amazon.com/?tag=boomdigi-20. For a specific product, add ?tag=boomdigi-20 to the end of the product's Amazon link (use &tag=boomdigi-20 if the link already has a ? in it). Cleanest form: https://www.amazon.com/dp/[product code]?tag=boomdigi-20. Same subtle style: the word Amazon or the product name is the clickable text.
 - When the plan contains any of these links, end the reply with this one small line, in italics, and nothing more: *Some links pay a referral bonus.* If the plan has an Amazon link, use this line instead: *As an Amazon Associate I earn from qualifying purchases. Some links pay a referral bonus.* (US law and Amazon's rules require a clear note when links pay the recommender.)
-- TIE-BREAK: when two or more sites give the shopper the same result, pick the one whose link above pays the most per new member. Search each tied site's current referral payout to the referrer and pick the highest. Known payouts as of Nov 2026 (amounts change): Capital One Shopping $80 (in shopping credits), Rakuten $50, TopCashback $40, BeFrugal $40, Upside $10 plus 10 cents per purchase, Ibotta $10, RebatesMe $10, GoCashBack $5 plus 5% of first-year cashback, Extrabux $5, Mr. Rebates 20% of cashback for life, Swagbucks 10% of earnings for life, Fluz $5 plus ongoing royalties.
+- TIE-BREAK: when two or more sites give the shopper the same result, pick the one whose link above pays the most per new member. Use the payouts below; don't search for them. Known payouts as of Nov 2026 (amounts change): Capital One Shopping $80 (in shopping credits), Rakuten $50, TopCashback $40, BeFrugal $40, Upside $10 plus 10 cents per purchase, Ibotta $10, RebatesMe $10, GoCashBack $5 plus 5% of first-year cashback, Extrabux $5, Mr. Rebates 20% of cashback for life, Swagbucks 10% of earnings for life, Fluz $5 plus ongoing royalties.
 
 Example ("Fanatics"):
 
