@@ -26,7 +26,15 @@ Claude checks prices, promo codes, cashback sites, discounted gift cards and you
 </tr>
 </table>
 
-> How can I get the best deal at Old Navy?
+### You type
+
+```
+Old Navy
+```
+
+### Claude sends back
+
+How can I get the best deal at Old Navy?
 
 **Checkout plan:**
 
