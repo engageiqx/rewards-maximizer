@@ -2,59 +2,62 @@
 
 # 💸 Rewards Maximizer
 
-### Never pay full price again.
+### Send Claude any product. Get back the cheapest way to buy it.
 
-**Send Claude a product. Get back the single cheapest way to buy it, step by step.**
+Claude checks prices, promo codes, cashback sites, discounted gift cards and your own credit cards, then hands you one simple plan to follow at checkout.
 
 <a href="https://github.com/engageiqx/rewards-maximizer/stargazers"><img src="https://img.shields.io/github/stars/engageiqx/rewards-maximizer?style=flat-square&color=2ea44f&label=stars" alt="GitHub stars"></a>
 <img src="https://img.shields.io/badge/works_with-Claude.ai_%7C_Claude_Code-orange?style=flat-square" alt="Works with Claude">
 <img src="https://img.shields.io/badge/setup-3_questions-blue?style=flat-square" alt="3 question setup">
 
-**[Install](#install) · [What it stacks](#what-it-stacks) · [Example](#example) · [Rules it never breaks](#rules-it-never-breaks)**
+**[Install](#install) · [How it works](#how-it-works) · [What Claude checks](#what-claude-checks) · [Rules](#rules)**
 
 </div>
 
 ---
 
+## How it works
+
 <table>
 <tr>
-<th width="50%">😐 How most people buy</th>
-<th width="50%">💸 With Rewards Maximizer</th>
-</tr>
-<tr>
-<td valign="top">
-
-> Google the product. Click the first store. Try a coupon that doesn't work. Pay with whatever card is in your wallet.
-
-</td>
-<td valign="top">
-
-> 1. Enter code **SAVE25** (25% off)
-> 2. Pay the first $125 with your Amex (Amex Offer, $20 back)
-> 3. Pay the rest with a Fluz Fanatics gift card (10%)
->
-> **Total: about 40% back.**
-
-</td>
+<td align="center" width="33%"><h3>1. Install</h3>Add the skill to Claude<br>in under a minute</td>
+<td align="center" width="33%"><h3>2. Answer 3 questions</h3>Your cards, your zip code,<br>cash or travel points</td>
+<td align="center" width="33%"><h3>3. Send a product</h3>A name, a link, a screenshot<br>or just a store</td>
 </tr>
 </table>
 
-**Same item. Same store. One plan that stacks every discount that legally stacks.**
+### You type
 
-## What it stacks
+```
+AirPods Pro 3
+```
 
-Most deal tools check one thing. Rewards Maximizer checks six, every time, then combines them into one checkout plan:
+### Claude sends back your plan
 
-| # | Layer | What it finds |
+> **Checkout plan:**
+> 1. Click through the cashback site Claude picked
+> 2. Enter the promo code Claude found
+> 3. Pay with a discounted gift card for that store
+> 4. Pay any rest with whichever of your cards earns the most
+>
+> **Total:** the % you get back, all layers added up
+
+<sub>Every plan is built live for that product and that day. You just follow the steps in order.</sub>
+
+## What Claude checks
+
+Every time, for every product:
+
+| | Layer | What Claude looks for |
 |--:|---|---|
-| 1 | 🏷️ **Best price** | The exact item across Amazon, Walmart, Target, Best Buy, Costco, the brand's own site and specialty stores |
-| 2 | 🎟️ **Promo codes** | Current codes, sign-up discounts, app-only and member pricing |
-| 3 | 💰 **Cashback site** | The highest real rate for your exact item across 15+ cashback sites, not the "up to" headline |
-| 4 | 🎁 **Discounted gift cards** | Fluz, CardCash, Raise and more, only stores in stock today |
-| 5 | 💳 **Your best card** | Which of *your* cards earns the most, in real dollars, plus card-linked offers like Amex Offers and Chase Offers |
-| 6 | 📅 **Timing** | Whether a sale is coming, price matching, and price-drop refund deadlines |
+| 🏷️ | **Price** | The exact item at Amazon, Walmart, Target, Best Buy, Costco, the brand's own site and specialty stores |
+| 🎟️ | **Promo codes** | Current codes, sign-up discounts, app-only and member pricing |
+| 💰 | **Cashback sites** | The real rate for your item across 15+ cashback sites |
+| 🎁 | **Gift cards** | Discounted gift cards for that store, in stock today |
+| 💳 | **Your cards** | Which of your cards earns the most in real dollars, plus card offers like Amex Offers and Chase Offers |
+| 📅 | **Timing** | Upcoming sales, price matching and price-drop refunds |
 
-Then it runs the math in code, so the total is exact every time.
+Claude stacks everything that works together into one plan, and does the math in code so the total is exact.
 
 ## Install
 
@@ -70,47 +73,12 @@ Then it runs the math in code, so the total is exact every time.
 npx skills add engageiqx/rewards-maximizer
 ```
 
-Or copy the skill straight into your skills folder:
+## Rules
 
-```bash
-mkdir -p ~/.claude/skills/rewards-maximizer && curl -o ~/.claude/skills/rewards-maximizer/SKILL.md https://raw.githubusercontent.com/engageiqx/rewards-maximizer/main/rewards-maximizer/SKILL.md
-```
-
-## Setup: 3 questions, once
-
-The first time you use it, Claude asks:
-
-1. **Which credit cards do you have?**
-2. **What's your zip code?** (for sales tax)
-3. **Do you cash out your points, or use them for travel?**
-
-That's it. Every plan after that uses only your cards.
-
-## Example
-
-Just send a product, a link, a screenshot, or a store name:
-
-```
-best way to buy AirPods Pro 3
-```
-
-```
-Vuori
-```
-
-```
-https://www.bestbuy.com/site/...
-```
-
-You get one checkout plan back. Follow the steps in order at checkout.
-
-## Rules it never breaks
-
-- ✅ **Only your cards.** Never tells you to pay with a card you don't have.
-- ✅ **No credit checks.** Never suggests opening a new card or financing. Free sign-ups only.
-- ✅ **Proof, not guesses.** If a rate or code can't be confirmed, the plan says so.
-- ✅ **Live stock only.** A gift card or cashback site only makes the plan if the store is available there today.
-- ✅ **Exact item.** Same model, size and color. A cheaper wrong version is not a deal.
+- ✅ **Only your cards.** Never tells you to use a card you don't have.
+- ✅ **No credit checks.** Never suggests opening a new card. Free sign-ups only.
+- ✅ **No guesses.** If a rate or code can't be confirmed, the plan says so.
+- ✅ **Exact item.** Same model, size and color.
 - ✅ **US stores, US dollars.** No eBay.
 
 ---
