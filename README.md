@@ -26,24 +26,6 @@ Claude checks prices, promo codes, cashback sites, discounted gift cards and you
 </tr>
 </table>
 
-### You type
-
-```
-Madewell
-```
-
-### Claude sends back
-
-**Checkout plan:**
-
-1. Sign up free for [TopCashback](https://www.topcashback.com/ref/member1146388919904), then click through to Madewell (3%)
-2. Build your cart and enter code LETSGO at checkout (40% off everything)
-3. Pay with your Citi Double Cash (2%)
-
-**Total:** about 45% back.
-
-**Returns:** returns cancel the cashback and card points.
-
 ## What Claude checks
 
 Every time, for every product:
