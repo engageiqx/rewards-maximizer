@@ -34,16 +34,21 @@ How can I get the best deal at Old Navy?
 
 ### Claude sends back
 
-> **Checkout plan:**
-> 1. Click through TopCashback to Old Navy (4% back)
-> 2. Add early Black Friday items to your cart (50% off)
-> 3. Enter code **EXTRA** at checkout (extra 30% off)
-> 4. Buy an Old Navy gift card for the exact total in the Fluz app, paid from your bank (8% back)
-> 5. Pay with that gift card
->
-> **Total:** about 69% off the regular price.
+**Checkout plan:**
 
-<sub>Real plan built on November 21, 2026. Codes and rates change, so every plan is built live for that day.</sub>
+1. Sign up free for Old Navy Rewards for free shipping on $50+, then build your cart
+2. In the [Fluz](https://fluz.app/referred-by/ENGAGEIQXINCC38B) app, search Old Navy and buy a gift card for the exact cart total, paid from your bank account (8%)
+3. Pay with the Fluz gift card at checkout
+
+If Old Navy isn't showing in the Fluz app, shop through [Extrabux](https://www.extrabux.com/r/6b01d191b4) (3.6%) and pay with your Fluz card (3%), for 6.6%.
+
+**Total:** about 8% back.
+
+**Wait?** Old Navy's Black Friday deals start Monday, Nov 23, with 50% off storewide.
+
+**Price drop:** Old Navy adjusts the price once if the price drops within 14 days, except promo code and final sale items.
+
+**Returns:** returns cancel the cashback, and anything paid by gift card refunds as Old Navy store credit.
 
 ## What Claude checks
 
