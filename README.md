@@ -26,6 +26,30 @@ Claude checks prices, promo codes, cashback sites, discounted gift cards and you
 </tr>
 </table>
 
+### You type
+
+```
+Old Navy
+```
+
+### Claude sends back
+
+**Checkout plan:**
+
+1. Sign up free for Old Navy Rewards for free shipping on $50+, then build your cart
+2. In the [Fluz](https://fluz.app/referred-by/ENGAGEIQXINCC38B) app, search Old Navy and buy a gift card for the exact cart total, paid from your bank account (8%)
+3. Pay with the Fluz gift card at checkout
+
+If Old Navy isn't showing in the Fluz app, shop through [Extrabux](https://www.extrabux.com/r/6b01d191b4) (3.6%) and pay with your Fluz card (3%), for 6.6%.
+
+**Total:** about 8% back.
+
+**Wait?** Old Navy's Black Friday deals start Monday, Nov 23, with 50% off storewide.
+
+**Price drop:** Old Navy adjusts the price once if the price drops within 14 days, except promo code and final sale items.
+
+**Returns:** returns cancel the cashback, and anything paid by gift card refunds as Old Navy store credit.
+
 ## What Claude checks
 
 Every time, for every product:
