@@ -29,7 +29,7 @@ Claude checks prices, promo codes, cashback sites, discounted gift cards and you
 ### You type
 
 ```
-Old Navy
+How can I get the best deal at Old Navy?
 ```
 
 ### Claude sends back
