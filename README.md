@@ -35,14 +35,13 @@ AirPods Pro 3
 ### Claude sends back your plan
 
 > **Checkout plan:**
-> 1. Click through the cashback site Claude picked
-> 2. Enter the promo code Claude found
-> 3. Pay with a discounted gift card for that store
-> 4. Pay any rest with whichever of your cards earns the most
+> 1. Go to Best Buy, where AirPods Pro 3 are on sale for $179.99 (normally $249.99)
+> 2. Buy a [Fluz](https://fluz.app/referred-by/ENGAGEIQXINCC38B) Best Buy gift card for $179.99, paid from your bank (3% back)
+> 3. Pay at Best Buy with that gift card
 >
-> **Total:** the % you get back, all layers added up
+> **Total:** 28% off plus 3% back, about $174.59 before tax.
 
-<sub>Every plan is built live for that product and that day. You just follow the steps in order.</sub>
+<sub>Real plan built on November 21, 2026. Prices and rates change, so every plan is built live for that product and that day.</sub>
 
 ## What Claude checks
 
