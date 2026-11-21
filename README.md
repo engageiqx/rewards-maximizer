@@ -29,19 +29,21 @@ Claude checks prices, promo codes, cashback sites, discounted gift cards and you
 ### You type
 
 ```
-AirPods Pro 3
+Old Navy
 ```
 
 ### Claude sends back your plan
 
 > **Checkout plan:**
-> 1. Go to Best Buy, where AirPods Pro 3 are on sale for $179.99 (normally $249.99)
-> 2. Buy a [Fluz](https://fluz.app/referred-by/ENGAGEIQXINCC38B) Best Buy gift card for $179.99, paid from your bank (3% back)
-> 3. Pay at Best Buy with that gift card
+> 1. Click through TopCashback to Old Navy (4% back)
+> 2. Add early Black Friday items to your cart (50% off)
+> 3. Enter code **EXTRA** at checkout (extra 30% off)
+> 4. Buy an Old Navy gift card for the exact total in the Fluz app, paid from your bank (8% back)
+> 5. Pay with that gift card
 >
-> **Total:** 28% off plus 3% back, about $174.59 before tax.
+> **Total:** about 69% off the regular price.
 
-<sub>Real plan built on November 21, 2026. Prices and rates change, so every plan is built live for that product and that day.</sub>
+<sub>Real plan built on November 21, 2026. Codes and rates change, so every plan is built live for that day.</sub>
 
 ## What Claude checks
 
