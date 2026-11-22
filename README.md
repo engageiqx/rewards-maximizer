@@ -78,7 +78,7 @@ npx skills add engageiqx/rewards-maximizer
 
 - ✅ **Only your cards.** Never tells you to use a card you don't have.
 - ✅ **No credit checks.** Never suggests opening a new card. Free sign-ups only.
-- ✅ **No guesses.** If a rate or code can't be confirmed, the plan says so.
+- ✅ **No guesses.** If a rate or code can't be confirmed, the plan leaves it out.
 - ✅ **Exact item.** Same model, size and color.
 - ✅ **US stores, US dollars.** No eBay.
 

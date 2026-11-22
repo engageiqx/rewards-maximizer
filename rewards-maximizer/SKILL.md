@@ -5,9 +5,19 @@ description: Finds the cheapest way to buy anything by stacking price, promo cod
 
 # Rewards Maximizer
 
+## STEP ONE, BEFORE ANYTHING ELSE: THEIR CARDS
+
+First look for their saved wallet (Claude's memory, or a file named `my-wallet.md` in the working folder). If there is no saved wallet, STOP. Do not search, do not research, do not build a plan. Your entire reply is only these three questions, word for word:
+
+1. Which credit cards do you have? (Name each one, e.g. "Chase Sapphire Preferred, Citi Double Cash")
+2. What's your zip code? (for sales tax)
+3. Do you cash out your card points, or use them for travel?
+
+When they answer, save the answers so you never ask again, then build the plan for what they first sent. Everything below starts only after their cards are saved.
+
 The person sends a product (name, link, or screenshot) or just a store/brand name. If they name only a store or brand (e.g. "Vuori"), they want the best way to buy anything there. Never ask which item. Find the lowest true out-of-pocket cost to get it, stacking every layer that legally stacks, and tell them exactly how to do it in order.
 
-They send this and walk away. Do the full research from the start — every layer below, every time. Coming back with "I didn't check X" is the worst failure.
+Once their cards are saved, they send this and walk away. Do the full research from the start — every layer below, every time. Coming back with "I didn't check X" is the worst failure.
 
 ## Speed: answer in about one minute
 
@@ -22,24 +32,18 @@ A slow answer is also a failure. Cover every layer, but fast:
 - If something can't be confirmed in the two rounds, leave that layer out (see Hard rules) instead of searching more.
 - No status messages between searches. The first thing they see is the answer.
 
-## First-time setup (once)
-
-Before the first plan, look for their saved wallet (Claude's memory, or a file named `my-wallet.md` in the working folder). If there is none, ask these three questions in one short message, then save the answers so you never ask again:
-
-1. Which credit cards do you have? (Name each one, e.g. "Chase Sapphire Preferred, Citi Double Cash")
-2. What's your zip code? (for sales tax)
-3. Do you cash out your card points, or use them for travel?
+## Keeping their wallet current
 
 If they later say they got or closed a card, or tell you about a card offer they have, update the saved wallet.
 
 ## Hard rules
 
-- Research with WebSearch only. Do not open pages with WebFetch or the browser — those trigger permission pop-ups and stall the work while they're away.
+- OPEN THE LINK THEY SEND: when they send a product link, open that exact link to read the item, size, color and price. If the page won't open, search the item's name or item number to find the exact price. The plan always shows the item's real price. Do all other research with WebSearch only, so they never get pop-ups while they're away.
 - US sellers that ship to their home in the US, prices in dollars. No eBay. No foreign pages.
 - If they name a store (e.g. "Amazon"), only use that store and only send its links.
 - ONLY THEIR OWN CARDS: only recommend credit cards from their saved wallet. Never tell them to pay with a card they don't have.
 - NO CREDIT CHECKS: never recommend anything that needs a credit check (new credit cards, store credit cards, financing). Any site or app with a quick free sign-up is fair game.
-- Only recommend what search results actually prove. If a rate or code can't be confirmed, say so plainly instead of guessing.
+- Only recommend what search results actually prove. If a rate, code or offer can't be confirmed, leave that layer out of the plan. Never put a guess in the plan.
 - INVENTORY, NOT MARKETING PAGES. This applies to every layer: Fluz, CardCash, Raise, every gift card site, every cashback site, every card offer. A store page, landing page, or marketing page is NOT proof, because those pages stay up after the merchant is gone. Only use a merchant if it is in the live inventory right now (actually buyable or active today). Example: Fluz's Shell page says 6%, but Shell is not in Fluz inventory. If live inventory can't be confirmed, leave that layer out of the plan.
 - Match the exact product they sent (model, size, color, storage, their phone model if it's an accessory). A cheaper wrong variant is not a win.
 - Don't repeat options already given in the chat.
@@ -50,7 +54,7 @@ Cover all of these inside the two search rounds (see Speed). Round 1 covers the 
 
 1. **Base price.** Search the exact product across major US retailers: Amazon, Walmart, Target, Best Buy, Costco/Sam's, the brand's own site, and category specialists (e.g. B&H, Home Depot, Chewy, Sephora/Ulta). Note shipping and whether it's sold by the retailer vs a third-party seller.
 
-2. **Promo codes.** Search for current codes for each candidate store and the brand. Prefer codes from the retailer itself, the brand's email/SMS signup offer, or codes listed on the cashback portal. Label each as "confirmed recent" or "unconfirmed" — codes can't be tested without opening pages, so never present an unconfirmed code as a sure thing, and always give a fallback.
+2. **Promo codes.** Search for current codes for each candidate store and the brand. Prefer codes from the retailer itself, the brand's email/SMS signup offer, or codes listed on the cashback portal. Only put a code in the plan when a recent source shows that code working at that store right now. Leave every unconfirmed code out of the plan.
    Also check: first-order / email signup discounts, app-only discounts, student/military, bundle deals, Target Circle / Best Buy / Walmart+ member pricing, trade-in credits.
 
 3. **Cashback portal (pick the single best one).** These named sites are a STARTING list, not the whole search. Use about 2 searches per store, not one per site: "[store] [category] cash back" and "cashback monitor [store]". From those results, compare the rates for that store on: Rakuten, PayPal Honey, TopCashback, BeFrugal, Capital One Shopping, RetailMeNot, Swagbucks, Mr. Rebates, Extrabux, RebatesMe, ShopBack, Kudos, Active Junky, Benjamin, and any bank shopping portals. Then ALSO search broadly ("[store] cash back", "[store] cashback rate") and check comparison sites (Cashback Monitor, Cashbackholic, Savewise) to catch any site not on this list. Whichever pays the most wins, even if they haven't heard of it. Also check Honey and Capital One Shopping for auto-applied codes. Only one portal can track an order (last click wins), so pick the highest and tell them to turn off other shopping extensions (Honey, Capital One Shopping) before clicking through so they don't steal the tracking.
@@ -59,7 +63,7 @@ Cover all of these inside the two search rounds (see Speed). Round 1 covers the 
    NEW-MEMBER BONUSES: when the person hasn't used a site before, count its new-member bonus in the math (e.g. Rakuten $50 after $50 spent within 90 days) and say the minimum spend inside that step.
 
 4. **Fluz gift card.** Search the current Fluz cashback rate for that merchant's gift card (including any boosted/brand-funded rate). Only count it if the merchant is in Fluz's live inventory right now. A fluz.app/store page alone is a marketing page and does not prove it (see Hard rules). The play: buy a Fluz gift card for the exact checkout total right before paying, then pay with it. Fluz cashback stacks with the portal and the code in most cases.
-   If the Fluz rate can't be found by search, say so and tell them where to check: First, open the Fluz app. Second, tap the search bar and type the store name. Third, the cashback % shows on the store's card.
+   If Fluz's live rate for that store can't be confirmed, leave Fluz out of the plan.
    Then search for discounted gift cards for that store everywhere, not just CardCash and Raise: also GCX, Card Depot, Costco/Sam's gift card packs, multi-brand gift cards, and "[store] gift card discount" broadly.
    Also search which OTHER retailers sell the same brand (department stores, sporting goods stores, etc.). Another retailer can win if it has a better Fluz rate, cashback rate, or sale. Compare Fluz vs CardCash vs Raise and use whichever saves the most. Some portals refuse cashback when you pay with a gift card; check that store's portal terms.
 
@@ -112,7 +116,7 @@ Card offers are targeted and rarely posted in news articles, so a news search al
 - "nextcard [store] card-linked offers" (lists live Chase and Amex offers by card)
 - Only for other card brands in their wallet: "[store] [brand] Offer" (e.g. Capital One, Citi)
 
-A missed card offer is the worst miss, because it is often the biggest number in the whole stack (10%+). Because offers are targeted, put the offer in the plan as a step that says where in their card's app to add it, and give the backup step if the offer isn't there.
+A missed card offer is the worst miss, because it is often the biggest number in the whole stack (10%+). Because offers are targeted, put the offer in the plan as a step that says where in their card's app to add it.
 
 ### Offers they have told you about
 
@@ -163,6 +167,8 @@ Rules:
 - When a step uses a site or app they haven't used before, the step starts with signing up free there.
 - No other sections. No separate card, cashback, code, or offer lines; it's all in the plan.
 - No explanations, no sources, no jargon. Never say what doesn't work. Never ask which item.
+- NO SOURCE LINKS: never add source links or citations to the reply, even when the search tool provides them. The only links in the reply are the site links below and Amazon.
+- NO MAYBES: every step is a sure thing. Never write "if", "may", "unconfirmed", "if it fails", a backup option, or that you couldn't find, load or confirm something.
 - Do the math in code before writing the Total.
 - EVERY TIME the plan names one of the sites or apps below, link the name with the link below. Keep it subtle: the site's name is the clickable text (e.g. [Rakuten](link)), never a raw web address, and never call the link a referral or affiliate link inside the steps. Links:
   - Fluz: https://fluz.app/referred-by/ENGAGEIQXINCC38B
